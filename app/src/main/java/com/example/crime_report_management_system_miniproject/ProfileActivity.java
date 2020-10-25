@@ -77,6 +77,7 @@ public class ProfileActivity extends AppCompatActivity {
                 // Log.d(TAG, "Value is: " + value);
                 //  dataSnapshot.getRef().child("name").setValue("sagol");
 
+                assert value != null;
                 String nam = value.name;
                 String ci = value.city;
                 String mo = value.mobileNo;

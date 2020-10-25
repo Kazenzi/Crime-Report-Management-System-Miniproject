@@ -24,9 +24,9 @@ public class AdminDashboardActivity extends AppCompatActivity {
 
         FirebaseUser currentuser = FirebaseAuth.getInstance().getCurrentUser();
 
-        if (currentuser == null) {
-            sendtoLogin();
-        }
+//        if (currentuser == null) {
+//            sendtoLogin();
+//        }
 
         //  fireAuth = FirebaseAuth.getInstance();
     }

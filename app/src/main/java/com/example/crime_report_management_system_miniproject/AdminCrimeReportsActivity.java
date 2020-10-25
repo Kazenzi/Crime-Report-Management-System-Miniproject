@@ -52,7 +52,8 @@ public class AdminCrimeReportsActivity extends AppCompatActivity {
 
         FirebaseUser currentuser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentuser == null) {
-            sendtoLogin();
+            mRef = mFirebaseDatabase.getReference().child("Crime");
+            mRef.addListenerForSingleValueEvent(valueEventListener);
         }
         else
         {

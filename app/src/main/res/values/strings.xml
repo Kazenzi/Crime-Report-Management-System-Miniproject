@@ -7,7 +7,7 @@
     <string name="signup">Sign Up</string>
     <string name="create_account">Need an account? Sign up!</string>
     <string name="welcome_msg">Welcome to Crime Reporting App</string>
-    <string name="welcome_msg2">POLICE LOGIN PANEL</string>
+    <string name="welcome_msg2">ADMIN LOGIN PANEL</string>
     <string name="account_setting">Account Settings</string>
     <string name="action_settings">Settings</string>
     <string name="action_Logout">Log Out</string>

@@ -35,7 +35,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyChW9SAPQCOAt9L8AMX_X9-lj0PGFdZ4IA" />
 
         <activity
             android:name=".ShowCrimeMapsActivity"

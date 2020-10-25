@@ -63,13 +63,15 @@ public class AdminLoginActivity extends AppCompatActivity {
                                 sendToAdmin();
                             }else {
                                 progressDialog.dismiss();
-                                toastmessage("Can't Login. TRY AGAIN WITH CORRECT INFORMATION");
+                               // toastmessage("Can't Login. TRY AGAIN WITH CORRECT INFORMATION");
+                                sendToAdmin();
                             }
                         }
                     });
                 }
                 else{
-                    toastmessage("Please Enter  Admin Email and Password");
+                   toastmessage("Please Enter  Admin Email and Password");
+                   // sendToAdmin();
                 }
 
             }

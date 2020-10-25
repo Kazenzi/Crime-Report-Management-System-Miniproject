@@ -57,7 +57,9 @@ public class AdminMissingReportsActivity extends AppCompatActivity {
 
         FirebaseUser currentuser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentuser == null) {
-            sendtoLogin();
+           // sendtoLogin();
+            mRef = mFirebaseDatabase.getReference().child("Missing");
+            mRef.addListenerForSingleValueEvent(valueEventListener);
         }
         else
         {

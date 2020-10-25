@@ -21,13 +21,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_msg2"
-        android:textColor="@color/white"
-        android:textSize="30sp"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
-        />
+        android:text="@string/welcome_msg2"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/loginemail"
