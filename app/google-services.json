@@ -1,26 +1,37 @@
 {
   "project_info": {
-    "project_number": "716069650617",
-    "project_id": "crime-report-management-eebf0",
-    "storage_bucket": "crime-report-management-eebf0.appspot.com"
+    "project_number": "636602237556",
+    "firebase_url": "https://crime-reporter-6ed0f-default-rtdb.firebaseio.com",
+    "project_id": "crime-reporter-6ed0f",
+    "storage_bucket": "crime-reporter-6ed0f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:716069650617:android:60fb2f88208279efed5b68",
+        "mobilesdk_app_id": "1:636602237556:android:e0b4fec48755d8cad50721",
         "android_client_info": {
           "package_name": "com.example.crime_report_management_system_miniproject"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "636602237556-i5n6nviknnoahmkreols7kkfktu2cbl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyD907NCgKAwQltpn02Ei05Vq7R3nj9sBis"
+          "current_key": "AIzaSyBPUUYNZwoEjLdEelyccKdqSN-ViVsFFSE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636602237556-i5n6nviknnoahmkreols7kkfktu2cbl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

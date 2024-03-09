@@ -72,7 +72,7 @@ public class UIActivity extends AppCompatActivity {
 
 
     private void sendtoLogin() {
-        Intent intent = new Intent(UIActivity.this, LoginActivity.class);
+        Intent intent = new Intent(UIActivity.this, UIActivity.class);
         startActivity(intent);
         finish();
     }
